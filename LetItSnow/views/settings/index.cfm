@@ -75,7 +75,7 @@ limitations under the License.
 				<div>
 				<fieldset>
 				<legend><img src="#prc.cbRoot#/includes/images/settings_black.png" alt="modifiers"/> <strong>Settings</strong></legend>
-					<p>From here you can tune the HTML Compression Engine.</p>
+					<p>From here you can tune the Snowing Engine.</p>
 
 					<!--- Auto Start --->
 					#html.hiddenField(name="autoStart",value=prc.settings.autoStart,value=true)#
