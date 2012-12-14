@@ -125,7 +125,7 @@ limitations under the License.
 
 					<label for="animationInterval">Animation Interval</label>		
 					<small>Theoretical "miliseconds per frame" measurement. 20 = fast + smooth, but high CPU use. 50 = more conservative, but slower</small><br/>
-					#html.textField(name="animationInterval",value=prc.settings.flakesMaxActive,size=40,class="textfield",required=true)#
+					#html.textField(name="animationInterval",value=prc.settings.animationInterval,size=40,class="textfield",required=true)#
 
 					<label for="flakeBottom">Flake Bottom</label>		
 					<small>Integer for Y axis snow limit, 0 or null for "full-screen" snow effect</small><br/>
